@@ -96,7 +96,8 @@ def usage():
     print("""
         Command Usage:
         -h             :  help
-        -f <filename>
+        -f <filename>  :  To determine file is packed or not packed
+        --dump         :  Give file inormation such as entry point of the executable, sections, etc.
               """)
     
 
